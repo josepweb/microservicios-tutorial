@@ -5,5 +5,3 @@ spring:
     config:
       enabled: true
       uri: http://localhost:8001
-#server.port=8003
-#spring.application.name=moto-service
