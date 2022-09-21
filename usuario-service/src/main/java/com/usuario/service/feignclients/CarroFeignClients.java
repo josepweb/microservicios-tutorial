@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.usuario.service.modelos.Carro;
 import com.usuario.service.modelos.Moto;
 
-@FeignClient(name = "carro-service", url = "http://localhost:8082")
+@FeignClient(name = "carro-service")
 @RequestMapping("/carro")
 public interface CarroFeignClients {
 
